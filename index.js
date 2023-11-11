@@ -91,15 +91,26 @@ var totalMonths = finances.length;
 
 var sum = 0;
 
+// Calculate the total number of months
 for (var i = 0; i < finances.length; i++) {
   sum += finances[i][1]; 
 }
 
+var totalChange = 0;
 
+for (var i = 1; i < finances.length; i++) {
+  // Calculate the change in Profit/Losses for each month
+  var currentMonth = finances[i];
+  var prevMonth = finances[i-1];
+  var change = currentMonth[1] - prevMonth[1];
 
+  // Add the change to the total
+  totalChange += change;
+}
 
+// Calculate the average change
 
-
+var averageChange = totalChange / (finances.length - 1);
 
 
 
@@ -110,4 +121,4 @@ for (var i = 0; i < finances.length; i++) {
 console.log("Financial Analysis\n------------------" + 
             "\nTotal Months: " + totalMonths +
               "\nTotal: " + sum +
-                 "\nAverage Change: ")
+                 "\nAverage Change: " + averageChange)
