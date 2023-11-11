@@ -86,3 +86,28 @@ var finances = [
   ['Jan-2017', 138230],
   ['Feb-2017', 671099],
 ];
+
+var totalMonths = finances.length;
+
+var sum = 0;
+
+for (var i = 0; i < finances.length; i++) {
+  sum += finances[i][1]; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+console.log("Financial Analysis\n------------------" + 
+            "\nTotal Months: " + totalMonths +
+              "\nTotal: " + sum +
+                 "\nAverage Change: ")
