@@ -112,6 +112,8 @@ for (var i = 1; i < finances.length; i++) {
 
 var averageChange = totalChange / (finances.length - 1);
 
+// The greatest increase in Profit/Losses (date and amount) over the entire period.
+
 var greatest = 0;
 var greatestMonth = "";
 
@@ -119,11 +121,13 @@ for (var i=1; i < finances.length; i++) {
     var change = finances[i][1] - finances[i-1][1];
 
 if (greatest < change) {
-  greatest = change
-  greatestMonth = finances[i][0]
+  greatest = change;
+  greatestMonth = finances[i][0];
 }
 
 }
+
+// The greatest decrease in Profit/Losses (date and amount) over the entire period.
 
 var decrease = 0;
 var decreaseMonth = "";
@@ -132,14 +136,14 @@ for (var i=1; i < finances.length; i++) {
     var change = finances[i][1] - finances[i-1][1];
 
 if ( decrease > change) {
-  decrease = change
-  decreaseMonth = finances[i][0]
+  decrease = change;
+  decreaseMonth = finances[i][0];
 }
 
 }
 
 
-
+// console log of all results : total months, sum total, average change, greatest month, decrease month. Also nearest 100th in JavaScript.
 
 
 console.log("Financial Analysis\n------------------" + 
