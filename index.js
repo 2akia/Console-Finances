@@ -112,7 +112,31 @@ for (var i = 1; i < finances.length; i++) {
 
 var averageChange = totalChange / (finances.length - 1);
 
+var greatest = 0;
+var greatestMonth = "";
 
+for (var i=1; i < finances.length; i++) {
+    var change = finances[i][1] - finances[i-1][1];
+
+if (greatest < change) {
+  greatest = change
+  greatestMonth = finances[i][0]
+}
+
+}
+
+var decrease = 0;
+var decreaseMonth = "";
+
+for (var i=1; i < finances.length; i++) {
+    var change = finances[i][1] - finances[i-1][1];
+
+if ( decrease > change) {
+  decrease = change
+  decreaseMonth = finances[i][0]
+}
+
+}
 
 
 
@@ -120,5 +144,7 @@ var averageChange = totalChange / (finances.length - 1);
 
 console.log("Financial Analysis\n------------------" + 
             "\nTotal Months: " + totalMonths +
-              "\nTotal: " + sum +
-                 "\nAverage Change: " + averageChange)
+              "\nTotal: " + "$" + sum +
+                 "\nAverage Change: " + Math.round(averageChange * 100) / 100 +
+                 "\nGreatest Increase in Profits/Losses: " + greatestMonth + " ($" + greatest + ")" +
+                 "\nGreatest Decrease in Profits/Losses: " + decreaseMonth + " ($" + decrease + ")" )
