@@ -10,7 +10,7 @@ Hello!!
 
 ## Introduction
 
-This project is when we were tasked with creating code for analyzing the financial records of a company.
+This project is about when we were tasked with creating code for analyzing the financial records of a company.
 
 # Installation
 
@@ -63,9 +63,9 @@ The tools that have been added in this project:
 
 > [!URL]
 
-- [Deployed application]()
+- [Deployed application](https://2akia.github.io/Console-Finances/)
 
-- [GitHub repository]()
+- [GitHub repository](https://github.com/2akia/Console-Finances)
 
 Thank you for having a look.
 
