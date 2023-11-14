@@ -18,13 +18,48 @@ Hello!!
 3. Install the required software components
 4. Start the application
 
-![Example Screenshot 1]()
+![Example Screenshot 1](/Screenshots/Screenshot%201.png)
 
-![Example Screenshot 2]()
+![Example Screenshot 2](/Screenshots/Screenshot%202..png)
 
-![Example Screenshot 3]()
+![Example Screenshot 3](/Screenshots/Screenshot%203.png)
 
-![Example Screenshot 4]()
+![Example Screenshot 4](/Screenshots/Screenshot%204.png)
 
+# Resources 
+
+Here are some useful resources related to this project:
+
+- [W3C HTML Specification](https://www.w3.org/TR/html52/): The official HTML specification by the World Wide Web Consortium.
+- [Stack Overflow](https://stackoverflow.com): Get answers to common questions and issues related to this project.
+
+- [GitHub Issues](https://support.github.com/features/issues): Report issues and request assistance.
+
+
+# License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+> [!NOTE]
+
+#### Support 
+
+If you have any questions or need assistance, feel free to reach out to me on my email 2akssultana@gmail.com.
+
+> [!IMPORTANT]
+
+The tools that have been added in this project:
+
+-
+-
+
+
+> [!URL]
+
+- [Deployed application]()
+
+- [GitHub repository]()
+
+Thank you for having a look.
 
 
