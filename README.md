@@ -16,7 +16,7 @@ Hello!!
 1. To get started with this project, you can clone the repository to your local machine.
 2. Navigate to the project directory
 3. Install the required software components
-4. Start the application
+4. Start the application.
 
 ![Example Screenshot 1](/Screenshots/Screenshot%201.png)
 
@@ -35,6 +35,7 @@ Here are some useful resources related to this project:
 
 - [GitHub Issues](https://support.github.com/features/issues): Report issues and request assistance.
 
+- [Learn JavaScript - Full Course for Beginners](https://www.youtube.com/watch?v=PkZNo7MFNFg): Learn Javascript.
 
 # License
 
@@ -50,8 +51,13 @@ If you have any questions or need assistance, feel free to reach out to me on my
 
 The tools that have been added in this project:
 
--
--
+- The total number of months included in the dataset.
+- The net total amount of Profit/Losses over the entire period.
+- The average of the changes in Profit/Losses over the entire period.
+- The greatest increase in Profit/Losses (date and amount) over the entire period.
+- The greatest decrease in Profit/Losses (date and amount) over the entire period.
+- Printing to the nearest 100th in JavaScript.
+- Used concatenation.
 
 
 > [!URL]
