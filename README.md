@@ -10,6 +10,7 @@ Hello!!
 
 ## Introduction
 
+This project is when we were tasked with creating code for analyzing the financial records of a company.
 
 # Installation
 
